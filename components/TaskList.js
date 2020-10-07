@@ -15,7 +15,7 @@ const TaskList = (props) => {
                             props.deleteTask(index);
                         }
                         return (<li key={index} style={{ display: 'flex', justifyContent: 'space-between', fontFamily: "sans-serif", marginTop: "1%" }}><span onClick={toggleTaskStatus}>
-                            {task.name} {task.priority} {task.isComplete ? "✅" : "❌"} </span><button class="btn btn-outline-danger" onClick={deleteTask}>Delete</button></li>
+                            {task.name} {task.priority} {task.isComplete ? "✅" : "❌"} </span><button className="btn btn-outline-danger" onClick={deleteTask}>Delete</button></li>
                         );
                     })
                 }
