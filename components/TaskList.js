@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 const TaskList = (props) => {
     return (
         <Fragment>
